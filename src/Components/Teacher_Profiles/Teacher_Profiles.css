@@ -1,0 +1,65 @@
+.teacher-profiles{
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 60px 30px;
+  border-right: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px #3d3d3df7,
+            1px 1px 5px #afb0b0f7
+}
+.profile{
+  flex-basis: 45%;
+}
+.filter-options {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-options input {
+  width: 70%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.filter-options select {
+  width: 30%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.profile-img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.teacher-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.teacher-card hr {
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid #012290;
+}
+
+.details{
+  flex-basis: 47%;
+}
+.details p{
+  font-size: 20px;
+  font-weight: 16px;
+}
+
+

@@ -1,0 +1,101 @@
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  /* background: url(../../assets/); */
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.hero-text .welcome{
+  margin: -3px 5px 0 0;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: .8s;
+  display: inline-block;
+  color: white;
+  
+}
+
+.hero-text .danuma{
+  margin: -3px 5px 0 15px;
+  color: #FC9C02;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: .9s ;
+  display: inline-block;
+}
+.hero-text .institute{
+  margin: -3px 5px 0 15px;
+  color: #fff;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 1.0s ;
+}
+.login-btn{
+  cursor: pointer;
+  margin-top: 30px;
+  display: inline-block;
+  padding: 12px 50px;
+  background: #FC9C02;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 1.2s;
+  box-shadow: 0 0 5px #FC9C02,
+  0 0 15px #FC9C02
+  
+}
+
+.login-btn:hover{
+  box-shadow: 0 0 5px #FC9C02,
+  0 0 20px #FC9C02, 0 0 25px #FC9C02,
+  0 0 50px #FC9C02, 0 0 100px #FC9C02
+
+}
+
+@keyframes slideRight{
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop{
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideBottom{
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
